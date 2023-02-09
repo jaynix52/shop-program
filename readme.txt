@@ -1,5 +1,4 @@
 # stationery-shop-program
-#stationary shop program
 
 # The following are the features that have been implemented
 

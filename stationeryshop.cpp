@@ -134,7 +134,7 @@ int main() {
   
   do 
   {
-    cout<<"\tchoice list"<<endl;
+    cout<<"\tChoice list"<<endl;
     cout << "1. Add item" << endl;
     cout << "2. Edit item" << endl;
     cout << "3. Search item" << endl;
@@ -157,7 +157,9 @@ int main() {
         myCart.searchItem();
         break;
       case 4:
+        myCart.displayCart();
         myCart.removeItem();
+        myCart.displayCart();
         break;
       case 5:
         myCart.displayCart();
@@ -166,6 +168,7 @@ int main() {
         cout << "Total: RM" << myCart.calculateTotal() << endl;
         break;
       case 7:
+      cout<<endl<<"Thank you"<<endl;
         break;
       default:
         cout << "Invalid choice." << endl;
